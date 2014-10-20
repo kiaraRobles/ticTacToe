@@ -91,14 +91,14 @@ int main(){
 						else if (input == 3 && square[1][3] == '3')
 				 		   (square[0][3] = tic) && (square[1][3] = tic);
 						else if (input == 4 && square[1][4] == '4')
-				           (square[0][4] = tic) && (square[1][4] = tic);
+				                   (square[0][4] = tic) && (square[1][4] = tic);
 						else if (input == 5 && square[1][5] == '5')
-				           (square[0][5] = tic) && (square[1][5] = tic);
+				                   (square[0][5] = tic) && (square[1][5] = tic);
 						else if (input == 6 && square[1][6] == '6')
 						   (square[0][6] = tic) && (square[1][6] = tic);
 						else if (input == 7 && square[1][7] == '7')
-					       (square[0][7] = tic) && (square[1][7] = tic);
-					    else if (input == 8 && square[1][8] == '8')
+					           (square[0][7] = tic) && (square[1][7] = tic);
+					        else if (input == 8 && square[1][8] == '8')
 						   (square[0][8] = tic) && (square[1][8] = tic);
 						else if (input == 9 && square[1][9] == '9')
 						   (square[0][9] = tic) && (square[1][9] = tic);
