@@ -184,8 +184,8 @@ int check(){
 	else if (square[1][3] == square[1][5] && square[1][5] == square[1][7])
 		return 1;
 	else if (square[1][1] != '1' && square[1][2] != '2' && square[1][3] != '3' 
-        && square[1][4] != '4' && square[1][5] != '5' && square[1][6] != '6' 
-        && square[1][7] != '7' && square[1][8] != '8' && square[1][9] != '9')
+             && square[1][4] != '4' && square[1][5] != '5' && square[1][6] != '6' 
+             && square[1][7] != '7' && square[1][8] != '8' && square[1][9] != '9')
 		return 0;
 	else
 		return -1;
