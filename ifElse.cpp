@@ -11,7 +11,7 @@ int check();
 int main(){
 
 	int  input = 1, turn = 1, progress = -1;
-	char tic, play, p1, p2;
+	char tic, play;
 
 /*===========================================================================/
                                 Game Intro
@@ -48,7 +48,7 @@ int main(){
 		cout << "     |     |     " << endl << endl;
 		Sleep(300);
 		cout << "Each player will enter a number 1-9 to place their piece on the board." << endl;
-		cout << "Make sence?(y/n)";
+		cout << "Make sence? Press 'y' to play.";
 		cin  >> play;
 		
 		if (play == 'y' || play == 'Y'){
